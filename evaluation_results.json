@@ -1,0 +1,230 @@
+[
+  {
+    "student_id": "188",
+    "heuristic": {
+      "baseline": {
+        "grounding": 0.0,
+        "personalization": 1.0,
+        "specificity": 0.6666666666666666,
+        "actionability": 0.6666666666666666
+      },
+      "contextual": {
+        "grounding": 0.5833333333333334,
+        "personalization": 1.0,
+        "specificity": 1.0,
+        "actionability": 0.6666666666666666
+      },
+      "full_contextual": {
+        "grounding": 0.4166666666666667,
+        "personalization": 1.0,
+        "specificity": 0.8333333333333334,
+        "actionability": 0.6666666666666666
+      },
+      "agentic": {
+        "grounding": 0.4166666666666667,
+        "personalization": 1.0,
+        "specificity": 0.8333333333333334,
+        "actionability": 0.6666666666666666
+      }
+    },
+    "llm_judge": {
+      "baseline": {
+        "Groundedness": 0,
+        "Personalization": 0,
+        "Specificity": 1,
+        "Actionability": 1
+      },
+      "contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "full_contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "agentic": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "winner": "full_contextual",
+      "justification": "The 'Full Context Upper Bound' response is the strongest. While 'Contextual' and 'Agentic' are also excellent, 'Full Context Upper Bound' goes a step further in providing highly granular, actionable advice for *how* to address each specific weakness. For example, for Partial Fractions, it explicitly suggests \"Spend an hour just practicing the algebraic decomposition... without solving for the constants.\" For Trig Integrals, it advises \"Practice 'identity matching'\". It also introduces a more sophisticated 'Active Recall' study schedule with specific session types. This level of detail in both identifying the problem and prescribing the solution makes it exceptionally effective and tailored."
+    }
+  },
+  {
+    "student_id": "245",
+    "heuristic": {
+      "baseline": {
+        "grounding": 0.0,
+        "personalization": 1.0,
+        "specificity": 0.5,
+        "actionability": 0.8333333333333334
+      },
+      "contextual": {
+        "grounding": 0.5,
+        "personalization": 1.0,
+        "specificity": 0.8333333333333334,
+        "actionability": 0.3333333333333333
+      },
+      "full_contextual": {
+        "grounding": 0.1,
+        "personalization": 1.0,
+        "specificity": 0.8333333333333334,
+        "actionability": 0.6666666666666666
+      },
+      "agentic": {
+        "grounding": 0.1,
+        "personalization": 1.0,
+        "specificity": 0.8333333333333334,
+        "actionability": 0.5
+      }
+    },
+    "llm_judge": {
+      "baseline": {
+        "Groundedness": 0,
+        "Personalization": 0,
+        "Specificity": 1,
+        "Actionability": 2
+      },
+      "contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "full_contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "agentic": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "winner": "full_contextual",
+      "justification": "The 'FULL CONTEXT UPPER BOUND' response is the most effective. While all the grounded responses (Contextual, Full Context, Agentic) are strong, the 'FULL CONTEXT UPPER BOUND' stands out for its superior specificity in remedial actions and its highly detailed, actionable plan. It not only accurately identifies weaknesses based on student data but also provides exceptionally precise, step-by-step instructions for addressing each specific error, a clear study schedule, a unique study technique ('Cover-Up Method'), and a targeted external resource recommendation. This level of prescriptive detail makes it the most comprehensive and immediately useful for a struggling student."
+    }
+  },
+  {
+    "student_id": "312",
+    "heuristic": {
+      "baseline": {
+        "grounding": 0.1,
+        "personalization": 1.0,
+        "specificity": 0.5,
+        "actionability": 0.8333333333333334
+      },
+      "contextual": {
+        "grounding": 0.6,
+        "personalization": 1.0,
+        "specificity": 0.5,
+        "actionability": 0.6666666666666666
+      },
+      "full_contextual": {
+        "grounding": 0.2,
+        "personalization": 1.0,
+        "specificity": 0.6666666666666666,
+        "actionability": 0.5
+      },
+      "agentic": {
+        "grounding": 0.1,
+        "personalization": 1.0,
+        "specificity": 1.0,
+        "actionability": 0.5
+      }
+    },
+    "llm_judge": {
+      "baseline": {
+        "Groundedness": 0,
+        "Personalization": 0,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "contextual": {
+        "Groundedness": 1,
+        "Personalization": 2,
+        "Specificity": 1,
+        "Actionability": 2
+      },
+      "full_contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "agentic": {
+        "Groundedness": 1,
+        "Personalization": 2,
+        "Specificity": 1,
+        "Actionability": 2
+      },
+      "winner": "full_contextual",
+      "justification": "The 'FULL CONTEXT UPPER BOUND' response is the clear winner as it demonstrates superior performance across all evaluation criteria. It is fully grounded in all provided student data, including Carlos's specific scores (average, Midterm 1, Quiz 3) and his noted weakness ('minor mistakes in algebra' on Midterm 2). This grounding allows for excellent personalization, tailoring the advice directly to his strengths and identified areas for improvement. The response is highly specific, outlining relevant calculus topics (Integration, Volumes, Arc Length, Series, Power Series) that align with a comprehensive MATH-022 final and the specified Stewart chapters/weeks. Finally, it provides a very actionable, step-by-step plan with concrete study tips and clear next steps, making it the most effective and helpful response for Carlos."
+    }
+  },
+  {
+    "student_id": "404",
+    "heuristic": {
+      "baseline": {
+        "grounding": 0.0,
+        "personalization": 1.0,
+        "specificity": 0.3333333333333333,
+        "actionability": 0.5
+      },
+      "contextual": {
+        "grounding": 0.4,
+        "personalization": 1.0,
+        "specificity": 0.16666666666666666,
+        "actionability": 0.5
+      },
+      "full_contextual": {
+        "grounding": 0.2,
+        "personalization": 1.0,
+        "specificity": 0.5,
+        "actionability": 0.6666666666666666
+      },
+      "agentic": {
+        "grounding": 0.2,
+        "personalization": 1.0,
+        "specificity": 0.6666666666666666,
+        "actionability": 0.6666666666666666
+      }
+    },
+    "llm_judge": {
+      "baseline": {
+        "Groundedness": 0,
+        "Personalization": 0,
+        "Specificity": 1,
+        "Actionability": 1
+      },
+      "contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 1,
+        "Actionability": 1
+      },
+      "full_contextual": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 2
+      },
+      "agentic": {
+        "Groundedness": 2,
+        "Personalization": 2,
+        "Specificity": 2,
+        "Actionability": 1
+      },
+      "winner": "full_contextual",
+      "justification": "The 'FULL CONTEXT UPPER BOUND' response is the clear winner because it leverages all available student data, including specific struggles like 'trigonometric substitutions' and 'conceptual integration', to create a highly personalized, specific, and actionable multi-day study plan. It goes beyond identifying weaknesses by also providing concrete strategies, resources (like Stewart Chapter references), and a clear schedule, without needing further input from the student."
+    }
+  }
+]

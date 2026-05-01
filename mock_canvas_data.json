@@ -1,0 +1,116 @@
+{
+  "student_profiles": [
+    {
+      "id": "188",
+      "name": "Alice",
+      "courses": [
+        {
+          "course_id": "MATH-022",
+          "course_name": "Calculus II",
+          "grades": [
+            {"assignment": "Quiz 1: Integration by Parts", "score": 95, "total": 100},
+            {"assignment": "Quiz 2: Partial Fractions", "score": 45, "total": 100},
+            {"assignment": "Quiz 3: Trig Integrals", "score": 50, "total": 100},
+            {"assignment": "Midterm 1", "score": 72, "total": 100},
+            {"assignment": "Lab 3: Differential Equations", "score": 60, "total": 100},
+            {"assignment": "Homework 4", "score": 85, "total": 100}
+          ],
+          "feedback": [
+            {"assignment": "Quiz 2", "comment": "Struggles with decomposition setup."},
+            {"assignment": "Quiz 3", "comment": "Needs more practice recognizing trig identities."},
+            {"assignment": "Lab 3", "comment": "Conceptual understanding of differential equations is weak."}
+          ],
+          "syllabus": {
+            "week_4": "Integration Techniques",
+            "week_5": "Applications of Integration",
+            "week_6": "Differential Equations",
+            "readings": ["Stewart Chapter 6", "Stewart Chapter 7"]
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "245",
+      "name": "Brian",
+      "courses": [
+        {
+          "course_id": "MATH-022",
+          "course_name": "Calculus II",
+          "grades": [
+            {"assignment": "Quiz 1: Integration by Parts", "score": 40, "total": 100},
+            {"assignment": "Quiz 2: Partial Fractions", "score": 35, "total": 100},
+            {"assignment": "Quiz 3: Trig Integrals", "score": 30, "total": 100},
+            {"assignment": "Midterm 1", "score": 50, "total": 100},
+            {"assignment": "Homework 4", "score": 55, "total": 100}
+          ],
+          "feedback": [
+            {"assignment": "Quiz 1", "comment": "Does not understand integration by parts formula."},
+            {"assignment": "Quiz 2", "comment": "Major algebra mistakes in setup."},
+            {"assignment": "Midterm 1", "comment": "Needs to review all integration techniques."}
+          ],
+          "syllabus": {
+            "week_4": "Integration Techniques",
+            "week_5": "Applications of Integration",
+            "readings": ["Stewart Chapter 6"]
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "312",
+      "name": "Carlos",
+      "courses": [
+        {
+          "course_id": "MATH-022",
+          "course_name": "Calculus II",
+          "grades": [
+            {"assignment": "Quiz 1", "score": 88, "total": 100},
+            {"assignment": "Quiz 2", "score": 90, "total": 100},
+            {"assignment": "Quiz 3", "score": 85, "total": 100},
+            {"assignment": "Midterm 1", "score": 92, "total": 100},
+            {"assignment": "Midterm 2", "score": 89, "total": 100}
+          ],
+          "feedback": [
+            {"assignment": "Midterm 2", "comment": "Very strong overall, minor mistakes in algebra."}
+          ],
+          "syllabus": {
+            "week_4": "Integration Techniques",
+            "week_5": "Applications of Integration",
+            "week_6": "Series",
+            "readings": ["Stewart Chapter 6", "Stewart Chapter 8"]
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "404",
+      "name": "Diana",
+      "courses": [
+        {
+          "course_id": "MATH-022",
+          "course_name": "Calculus II",
+          "grades": [
+            {"assignment": "Quiz 1", "score": 70, "total": 100},
+            {"assignment": "Quiz 2", "score": 75, "total": 100},
+            {"assignment": "Quiz 3", "score": 40, "total": 100},
+            {"assignment": "Midterm 1", "score": 65, "total": 100},
+            {"assignment": "Lab 2", "score": 55, "total": 100}
+          ],
+          "feedback": [
+            {"assignment": "Quiz 3", "comment": "Difficulty with trigonometric substitutions."},
+            {"assignment": "Lab 2", "comment": "Needs stronger conceptual understanding."}
+          ],
+          "syllabus": {
+            "week_4": "Integration Techniques",
+            "week_5": "Applications",
+            "week_6": "Sequences and Series",
+            "readings": ["Stewart Chapter 6", "Stewart Chapter 7", "Stewart Chapter 8"]
+          }
+        }
+      ]
+    }
+  ]
+}
