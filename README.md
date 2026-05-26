@@ -1,6 +1,4 @@
-# MCP-EdAgent Research
-
-**Short repo name:** `MCP-EdAgent`
+# AgenticEduMCP Research
 
 ## Overview
 
