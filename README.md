@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains research code for studying agentic large language models (LLMs) in personalized education. The system uses an MCP-based context retrieval server to provide student-specific Canvas-style data to LLMs and evaluates how tool-enabled, contextual, and baseline responses compare.
+This repository contains research code for a NLP course research paper for studying agentic large language models (LLMs) in personalized education. The system uses an MCP-based context retrieval server to provide student-specific Canvas-style data to LLMs and evaluates how tool-enabled, contextual, and baseline responses compare.
 
 ## Key Components
 
